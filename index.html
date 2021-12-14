@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="imageSlider">
+
+        <!-- left button -->
+        <button class="slideBtn left hidden">
+            <img src="/img/left.svg" alt="">
+        </button>
+
+        <div class="slideContainer">
+            <ul class="slider">
+                <li class="slide current-slide">
+                    <img class="img" src="/img/1.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img class="img" src="/img/2.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img class="img" src="/img/3.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img class="img" src="/img/4.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img class="img" src="/img/5.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <!-- right button -->
+        <button class="slideBtn right">
+            <img src="/img/right.svg" alt="">
+        </button>
+
+        <!-- Slider Indicator -->
+        <div class="sliderNav">
+            <button class="sliderIndicator current-slide"></button>
+            <button class="sliderIndicator"></button>
+            <button class="sliderIndicator"></button>
+            <button class="sliderIndicator"></button>
+            <button class="sliderIndicator"></button>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
